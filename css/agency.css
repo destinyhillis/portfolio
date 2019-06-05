@@ -822,3 +822,11 @@ hr {
 .services-center {
   padding: 0 30px
 }
+
+.port {
+  padding-bottom: 25px;
+}
+
+.bg-teal {
+  background-color: rgba(72,191,173, 0.15) 
+}
