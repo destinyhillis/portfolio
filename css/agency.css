@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
-body {
+ body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: #46bfad;
 }
 
 .text-primary {
@@ -45,10 +45,6 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: .15em;
-}
-
-.page-section {
-  padding: 100px 50px;
 }
 
 .page-section h2.section-heading {
@@ -121,6 +117,10 @@ h6 {
 
   header.masthead {
     height: 800px;
+  }
+
+  .page-section {
+    padding: 50px 50px;
   }
   
 }
@@ -310,7 +310,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
-  max-width: 400px;
+  /* max-width: 400px; */
   margin: 0 auto;
   cursor: pointer;
 }
@@ -322,7 +322,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(76, 181, 167, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -820,6 +820,10 @@ hr {
   header.masthead {
     height: 800px;
   }
+
+  .page-section {
+    padding: 10px 10px;
+  }
 }
 @media (min-width: 600px){
   .page-section h3.section-subheading {
@@ -839,7 +843,8 @@ hr {
   }
 }
 .services-center {
-  padding: 0 30px
+  padding: 0 30px;
+  margin: 0, auto;
 }
 
 .port {
@@ -876,4 +881,8 @@ hr {
 
 #dev-projects {
   padding: 0
+}
+
+.services {
+  margin: 0 auto;
 }
